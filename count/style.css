@@ -1,0 +1,35 @@
+    .container {
+        text-align: center;
+        box-shadow: 20px 20px 20px rgb(118, 119, 117);
+        padding: 50px;
+        height: 350px;
+        width: 225px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, #346d91, #a3cddb, #E8ECF1);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+    }
+    
+    .btn {
+        height: 50px;
+        width: 110px;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        transition: 0.2s;
+    }
+    
+    .btn:hover {
+        background-color: #346d91;
+        color: white;
+        cursor: pointer;
+    }
